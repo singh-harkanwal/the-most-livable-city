@@ -1,0 +1,71 @@
+@import '../../App.scss';
+
+.img-container{
+  position: relative;
+  opacity: 1;
+}
+h4 {
+  color: $mainBlue;
+  margin: 0.3rem 0;
+  font-weight: 100;
+}
+
+@media screen and (max-width:480px) {
+  .city-info {
+    padding: 1rem 1.5rem;
+    h1 {
+      font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    h4 {
+      margin: 0.1rem 0;
+    }
+  }
+  .city-ranking {
+    font-size: 6rem;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  .city-info {
+    padding: 1.5rem 2rem;
+    h1 {
+      font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    h4 {
+      margin: 0.2rem 0;
+    }
+  }
+  .city-ranking {
+    font-size: 8rem;
+    float: left;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .city-info {
+    padding: 2rem 2.5rem;
+    h1 {
+      font-size: 1.7rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+    }
+    h4 {
+      margin: 0.3rem 0;
+    }
+  }
+  .city-ranking {
+    font-size: 10rem;
+    float: left;
+    margin-right: 2.5rem;
+  }
+}

@@ -1,0 +1,50 @@
+@import '../../App.scss';
+
+.cityList {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.cityListGrid {
+  background: $mainBlack;
+  border-radius: 1.8rem;
+  margin: 3rem 0;
+  img {
+    width: 100%;
+    border-top-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+    display: block;
+  }
+}
+
+@media only screen and (min-width : 321px) {
+  .cityList {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+  }
+  .cityListGrid {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .cityList {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .cityListGrid {
+    margin: 2.5rem 0;
+  }
+}
+@media screen and (min-width:992px) {
+  .cityList {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  .cityListGrid {
+    margin: 3rem 0;
+  }
+}
